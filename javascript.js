@@ -5,25 +5,15 @@ media<4: Reprovado.
 
 Obs use o prompte exiba os resultados em alert.
 */
-alert("Alerta de Confirmação!");
+var nome01
+let numero = 10;
+var nota01, nota02, nota03
 
-var nome1 = "";
-let nota1, nota2, nota3 = 0;
-const quantidadeProvas = 3;
- 
-nome1 = prompt("Digite o Nome do Aluno 1:");
-nota1 = parseFloat(prompt("Digite a Nota 1 do Aluno 1: "));
-nota2 = parseFloat(prompt("Digite a Nota 2 do Aluno 1: "));
-nota3 = parseFloat(prompt("Digite a Nota 3 do Aluno 1: "));
+nome01 = prompt("Digite seu nome:");
+nota01 = parseFloat (prompt("Diigite a nota01"));
+nota02 = parseFloat (prompt("Diigite a nota01"));
+nota03 = parseFloat (prompt("Diigite a nota01"));
 
 
- 
-var media1 = 0;
-media1 = (nota1 + nota2 + nota3 ) / quantidadeProvas;
-
- 
-var mensagem = `
-${nome1}, sua média é ${media1}, parabéns!  
-${nome2}, sua média é ${media2}, parabéns!`;
- 
-alert(mensagem);
+var media01, media02 =0;
+media01 = (nome01)
